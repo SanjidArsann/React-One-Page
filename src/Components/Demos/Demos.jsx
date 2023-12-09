@@ -4,6 +4,7 @@ import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import About from "../About/About";
 import Services from "../Services/Services";
 import Portfolio from "../Portfolio/Portfolio";
+import BannerImage from "../../../public/hero-one-img-2.jpeg"
 
 const Demos = () => {
   return (
@@ -29,8 +30,8 @@ const Demos = () => {
           <div>
             <img
               className="hidden sm:block h-30 ml-20 md:mt-20 rounded-full hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-500"
-              src="../../../public/hero-one-img-2.jpeg"
-              alt=""
+              src={BannerImage}
+              alt="BannerImage"
             />
             
           </div>
