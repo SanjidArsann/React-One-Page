@@ -37,8 +37,8 @@ const Header = () => {
             <span>Blog</span>
             <ChevronDownIcon className=" h-4 w-4 mt-2 hover:text-indigo-600" />
         </ActiveLink>
-        <ActiveLink to="/contact">
-            <span>Contact</span>
+        <ActiveLink to="/about">
+            <span>About Us</span>
             <ChevronDownIcon className=" h-4 w-4 mt-2 hover:text-indigo-600" />
         </ActiveLink>
       </div>

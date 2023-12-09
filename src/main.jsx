@@ -11,6 +11,7 @@ import Services from './Components/Services/Services';
 import Blog from './Components/Blog/Blog';
 import Pages from './Components/Pages/Pages';
 import Portfolio from './Components/Portfolio/Portfolio';
+import About from './Components/About/About';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       element:<Pages></Pages>
     }
     ,
+    {
+      path:'/about',
+      element:<About></About>
+    }
   ]
   },
 ]);

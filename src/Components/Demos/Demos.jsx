@@ -8,6 +8,7 @@ import BannerImage from "../../../public/hero-one-img-2.jpeg";
 import ShapeOne from '../../../public/shape-1.png';
 import CircleLogoOne from '../../../public/circle-logo-1.png';
 import ShapeTwo from '../../../public/shape-2.png'
+import Blog from "../Blog/Blog";
 
 
 const Demos = () => {
@@ -65,6 +66,7 @@ const Demos = () => {
       <About></About>
       <Services></Services>
       <Portfolio></Portfolio>
+      <Blog></Blog>
     </main>
   );
 };

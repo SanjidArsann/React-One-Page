@@ -1,0 +1,18 @@
+[
+    { 
+        "id": 1,  
+      "news_title": "Exciting Discovery",
+      "news_description": "Scientists have made a groundbreaking discovery that could revolutionize the universe."
+    },
+    {
+        "id": 2,
+      "news_title": "Community Gathering Tomorrow",
+      "news_description": "Join your neighbors for a community. There will be food, fun activities for all ages."
+    },
+    {
+        "id": 3,
+      "news_title": " New Gadgets Unveiled",
+      "news_description": "Tech enthusiasts, get ready! The latest gadgets from leading tech companies will be unveiled."
+    }
+  ]
+  

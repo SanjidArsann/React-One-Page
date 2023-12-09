@@ -7,7 +7,7 @@ const About = () => {
   return (
     <main className="relative">
       <section className="  mx-auto bg bg-white h-screen bg-cover bg-no-repeat bg-top  ">
-        <div className=" grid grid-cols-2  md:pt-20 md:gap-20  md:mx-28">
+        <div className="pt-32 grid grid-cols-2  md:gap-20  md:mx-28">
           <div>
             <img
               className="rounded-full "
