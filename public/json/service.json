@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "ProductX",
+      "features": [
+        "Product Management",
+        "MVP Definition",
+        "Product Strategy"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "TechHub",
+      "features": [
+        "User retention",
+        "Health goal achievement",
+        "App store ratings"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "InnovatePro",
+      "features": [
+        "User engagement",
+        "Feature adoption rate",
+        "Time-to-market"
+      ]
+    }
+  ]
+  
