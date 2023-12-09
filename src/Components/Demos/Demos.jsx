@@ -9,6 +9,7 @@ import ShapeOne from '../../../public/shape-1.png';
 import CircleLogoOne from '../../../public/circle-logo-1.png';
 import ShapeTwo from '../../../public/shape-2.png'
 import Blog from "../Blog/Blog";
+import Footer from "../Footer/Footer";
 
 
 const Demos = () => {
@@ -67,6 +68,7 @@ const Demos = () => {
       <Services></Services>
       <Portfolio></Portfolio>
       <Blog></Blog>
+      <Footer></Footer>
     </main>
   );
 };

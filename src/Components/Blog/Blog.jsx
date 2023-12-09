@@ -12,7 +12,7 @@ useEffect(() =>{
 },[])
     return (
         <main className=" relative">
-      <section className="py-28">
+      <section className="pt-28 mb-20">
         <div>
           <h3 className="text-center pt-3 text-indigo-600 font-semibold text-2xl ">
           Articles News
