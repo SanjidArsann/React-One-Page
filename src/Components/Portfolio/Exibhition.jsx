@@ -1,6 +1,6 @@
-
 import PropTypes from "prop-types";
-const Project = ({project}) => {
+
+const Exibhition = ({project}) => {
     return (
         <div>
             <div className="Cart">
@@ -26,7 +26,7 @@ const Project = ({project}) => {
         </div>
     );
 };
-Project.propTypes = {
+Exibhition.propTypes = {
     project: PropTypes.isRequired,
   };
-export default Project;
+export default Exibhition;

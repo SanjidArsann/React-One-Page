@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import BorderOne from "../../../public/border-1.png";
-import Project from "./project";
+import Exibhition from "./Exibhition";
+
 
 const Portfolio = () => {
     const[projects,setProjects] = useState([]);
@@ -69,10 +70,10 @@ const Portfolio = () => {
         </div>
         <div className="grid grid-cols-3 gap-8 mt-14">
          {
-            projects.map(project=> <Project
+            projects.map(project=> <Exibhition
             key={project.id}
             project={project}
-            ></Project>)
+            ></Exibhition>)
          }
           
         </div>
