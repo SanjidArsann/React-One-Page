@@ -1,4 +1,7 @@
 import { ChevronRightIcon, CheckCircleIcon } from "@heroicons/react/24/solid";
+import BorderOne from '../../../public/border-1.png';
+import AboutImg from '../../../public/about-1.jpeg';
+import CircleLogoTwo from '../../../public/circle-logo-2.png'
 
 const About = () => {
   return (
@@ -8,16 +11,16 @@ const About = () => {
           <div>
             <img
               className="rounded-full "
-              src="../../../public/about-1.jpeg"
-              alt=""
+              src={AboutImg}
+              alt="AboutImg"
             />
           </div>
 
           <div className="relative">
             <img
               className="absolute top-16"
-              src="../../../public/border-1.png"
-              alt=""
+              src={BorderOne}
+              alt="Border-one"
             />
 
             <h3 className="mt-20 text-indigo-600 font-semibold pl-8 text-3xl">
@@ -55,15 +58,15 @@ const About = () => {
               </div>
             </div>
             <button className="flex md:mt-10 py-4 px-12 border-solid border-2 border-indigo-600 font-semibold rounded-lg bg-white text-indigo-600 hover:text-white hover:bg-indigo-600 transition ease-in-out duration-600">
-              Let's Talk Us
+              Let<span>{`'`}</span>s Talk Us
               <ChevronRightIcon className="  h-4 w-4 mt-1 " />
             </button>
           </div>
           <div>
             <img
-              src="../../../public/circle-logo-2.png"
+              src={CircleLogoTwo}
               className=" animate-bounce duration-1000 ease-in-out absolute left-20 bottom-20"
-              alt=""
+              alt="CircleLogoTwo"
             />
           </div>
         </div>

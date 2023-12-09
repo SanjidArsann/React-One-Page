@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Service from "./Service"
+import BorderOne from '../../../public/border-1.png'
 
 const Services = () => {
 const [services, setServices] = useState([]);
@@ -19,8 +20,8 @@ useEffect(() =>{
           <div className="flex justify-center">
             <img
               className="absolute top-[110px]"
-              src="../../../public/border-1.png"
-              alt=""
+              src={BorderOne}
+              alt="BorderOne"
             />
           </div>
           <h2 className="text-3xl  lg:text-5xl  mt-10  mb-8 font-bold text-center">Creative Design Solutions</h2>

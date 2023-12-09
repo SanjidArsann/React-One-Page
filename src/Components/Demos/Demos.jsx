@@ -1,10 +1,14 @@
-import React from "react";
+
 import "../Style/ActiveLink.css";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import About from "../About/About";
 import Services from "../Services/Services";
 import Portfolio from "../Portfolio/Portfolio";
-import BannerImage from "../../../public/hero-one-img-2.jpeg"
+import BannerImage from "../../../public/hero-one-img-2.jpeg";
+import ShapeOne from '../../../public/shape-1.png';
+import CircleLogoOne from '../../../public/circle-logo-1.png';
+import ShapeTwo from '../../../public/shape-2.png'
+
 
 const Demos = () => {
   return (
@@ -23,7 +27,7 @@ const Demos = () => {
               similique totam. Excepturi, nesciunt exercitationem.
             </p>
             <button className="flex md:mt-20 py-4 px-12 text-white font-semibold rounded-lg bg-indigo-600 hover:bg-black transition ease-in-out duration-600">
-              Let's Talk Us
+              Let<span>{`'`}</span>s Talk Us
               <ChevronRightIcon className="  h-4 w-4 mt-1 " />
             </button>
           </div>
@@ -38,22 +42,22 @@ const Demos = () => {
           <div>
             <img
               className="md:absolute hidden top-28 left-9 sm:block hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-600"
-              src="../../../public/shape-1.png"
-              alt=""
+              src={ShapeOne}
+              alt="ShapeOne"
             />
           </div>
           <div>
             <img
               className="md:absolute hidden bottom-64 right-1/3 sm:block animate-bounce duration-500 ease-in-out "
-              src="../../../public/circle-logo-1.png"
-              alt=""
+              src={CircleLogoOne}
+              alt="CircleLogoOne"
             />
           </div>
           <div>
             <img
               className="md:absolute hidden top-48 right-1/3 sm:block hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-600"
-              src="../../../public/shape-2.png"
-              alt=""
+              src={ShapeTwo}
+              alt="ShapeTwo"
             />
           </div>
         </div>
