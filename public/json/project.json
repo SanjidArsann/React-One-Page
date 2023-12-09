@@ -1,0 +1,39 @@
+[
+    {
+        "id":"1",
+      "image": "../img-1 (2).jpeg",
+      "category": "Dashboard Design",
+      "Type": "Creative Design"
+    },
+    {
+        "id":"2",
+      "image": "../img-2 (1).jpeg",
+      "category": "Landing Pages",
+      "Type": "Creative Design"
+    },
+    {
+        "id":"3",
+      "image": "../img-4 (1).jpeg",
+      "category": "Illustration Design",
+      "Type": "Creative Design"
+    },
+    {
+        "id":"4",
+      "image": "../img-6.jpeg",
+      "category": "Dashboard Design",
+      "Type": "Creative Design"
+    },
+    {
+        "id":"5",
+      "image": "../img-5.jpeg",
+      "category": "App Development",
+      "Type": "Creative Design"
+    },
+    {
+        "id":"6",
+      "image": "../img-3 (2).jpeg",
+      "category": "Web Development",
+      "Type": "Creative Design"
+    }
+  ]
+  

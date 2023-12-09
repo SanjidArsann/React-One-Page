@@ -10,6 +10,8 @@ import CircleLogoOne from '../../../public/circle-logo-1.png';
 import ShapeTwo from '../../../public/shape-2.png'
 import Blog from "../Blog/Blog";
 import Footer from "../Footer/Footer";
+import Work from "../Work/Work";
+import Achievement from "../Achievement/Achievement";
 
 
 const Demos = () => {
@@ -67,6 +69,8 @@ const Demos = () => {
       <About></About>
       <Services></Services>
       <Portfolio></Portfolio>
+      <Work></Work>
+      <Achievement></Achievement>
       <Blog></Blog>
       <Footer></Footer>
     </main>

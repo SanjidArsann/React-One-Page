@@ -1,12 +1,14 @@
+import { useEffect, useState } from "react";
 import BorderOne from "../../../public/border-1.png";
-import ImageOne from "../../../public/img-1 (2).jpeg";
-import ImageTwo from "../../../public/img-2 (1).jpeg";
-import ImageThree from "../../../public/img-3 (2).jpeg";
-import ImageFour from "../../../public/img-4 (1).jpeg";
-import ImageFive from "../../../public/img-5.jpeg";
-import ImageSix from "../../../public/img-6.jpeg";
+import Project from "./project";
 
 const Portfolio = () => {
+    const[projects,setProjects] = useState([]);
+    useEffect(()=>{
+        fetch('../../../public/json/project.json')
+        .then(res => res.json())
+        .then(data =>setProjects(data))
+    },[])
   return (
     <main className="bg-gray-100">
       <div className="mx-28 pb-28 pt-10">
@@ -66,126 +68,13 @@ const Portfolio = () => {
           </a>
         </div>
         <div className="grid grid-cols-3 gap-8 mt-14">
-          <div className="Cart">
-            <div className="relative group">
-              <img src={ImageOne} alt="ImageOne" />
-              <div className="absolute inset-0 bg-indigo-800 opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
-              <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                <span className="text-white text-5xl font-semibold transform -translate-y-full opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500">
-                  +
-                </span>
-              </div>
-            </div>
-            <div className="mt-8">
-              <a
-                className="text-2xl font-bold hover:text-indigo-600  transition ease-in-out duration-500"
-                href="">Dashboard Design </a>
-              <br />
-              <div className="mt-2 text-lg font-semibold text-gray-500 hover:text-indigo-600 ">
-                <a href="">Creative Design</a>
-              </div>
-            </div>
-          </div>
-          <div className="Cart">
-            <div className="relative group">
-              <img src={ImageTwo} alt="ImageTwo" />
-              <div className="absolute inset-0 bg-indigo-800 opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
-              <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                <span className="text-white text-5xl font-semibold transform -translate-y-full opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500">
-                  +
-                </span>
-              </div>
-            </div>
-            <div className="mt-8">
-              <a
-                className="text-2xl font-bold hover:text-indigo-600  transition ease-in-out duration-500"
-                href="">Landing Pages </a>
-              <br />
-              <div className="mt-2 text-lg font-semibold text-gray-500 hover:text-indigo-600 ">
-                <a href="">Creative Design</a>
-              </div>
-            </div>
-          </div>
-          <div className="Cart">
-            <div className="relative group">
-              <img src={ImageThree} alt="ImageThree" />
-              <div className="absolute inset-0 bg-indigo-800 opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
-              <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                <span className="text-white text-5xl font-semibold transform -translate-y-full opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500">
-                  +
-                </span>
-              </div>
-            </div>
-            <div className="mt-8">
-              <a
-                className="text-2xl font-bold hover:text-indigo-600  transition ease-in-out duration-500"
-                href="">Illustration Design</a>
-              <br />
-              <div className="mt-2 text-lg font-semibold text-gray-500 hover:text-indigo-600 ">
-                <a href="">Creative Design</a>
-              </div>
-            </div>
-          </div>
-          <div className="Cart">
-            <div className="relative group">
-              <img src={ImageFour} alt="ImageFour" />
-              <div className="absolute inset-0 bg-indigo-800 opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
-              <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                <span className="text-white text-5xl font-semibold transform -translate-y-full opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500">
-                  +
-                </span>
-              </div>
-            </div>
-            <div className="mt-8">
-              <a
-                className="text-2xl font-bold hover:text-indigo-600  transition ease-in-out duration-500"
-                href="">Dashboard Design </a>
-              <br />
-              <div className="mt-2 text-lg font-semibold text-gray-500 hover:text-indigo-600 ">
-                <a href="">Creative Design</a>
-              </div>
-            </div>
-          </div>
-          <div className="Cart">
-            <div className="relative group">
-              <img src={ImageFive} alt="ImageFive" />
-              <div className="absolute inset-0 bg-indigo-800 opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
-              <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                <span className="text-white text-5xl font-semibold transform -translate-y-full opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500">
-                  +
-                </span>
-              </div>
-            </div>
-            <div className="mt-8">
-              <a
-                className="text-2xl font-bold hover:text-indigo-600  transition ease-in-out duration-500"
-                href="">App Development </a>
-              <br />
-              <div className="mt-2 text-lg font-semibold text-gray-500 hover:text-indigo-600 ">
-                <a href="">Creative Design</a>
-              </div>
-            </div>
-          </div>
-          <div className="Cart">
-            <div className="relative group">
-              <img src={ImageSix} alt="ImageSix" />
-              <div className="absolute inset-0 bg-indigo-800 opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
-              <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                <span className="text-white text-5xl font-semibold transform -translate-y-full opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-transform duration-500">
-                  +
-                </span>
-              </div>
-            </div>
-            <div className="mt-8">
-              <a
-                className="text-2xl font-bold hover:text-indigo-600  transition ease-in-out duration-500"
-                href="">Web Development </a>
-              <br />
-              <div className="mt-2 text-lg font-semibold text-gray-500 hover:text-indigo-600 ">
-                <a href="">Creative Design</a>
-              </div>
-            </div>
-          </div>
+         {
+            projects.map(project=> <Project
+            key={project.id}
+            project={project}
+            ></Project>)
+         }
+          
         </div>
       </div>
     </main>

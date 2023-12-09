@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'crimson-pro': ['Crimson Pro', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     function ({ addUtilities }) {
