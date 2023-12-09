@@ -1,4 +1,4 @@
-import React from "react";
+import PropsType from "prop-types"
 import { ArrowRightIcon } from "@heroicons/react/24/solid";
 
 const Service = ({ service }) => {
