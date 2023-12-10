@@ -1,8 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
-import AnimatedImage from '../../../public/shape-4 (1).png';
-
+import AnimatedImage from "../../../public/shape-4 (1).png";
 
 const Contact = () => {
   return (
@@ -91,9 +90,9 @@ const Contact = () => {
               </div>
             </div>
             <div className="absolute right-0 top-1/3  ">
-                <div>
+              <div>
                 <img src={AnimatedImage} alt="AnimatedImage" />
-                </div>
+              </div>
             </div>
           </div>
         </div>

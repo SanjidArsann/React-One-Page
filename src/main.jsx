@@ -9,9 +9,9 @@ import Layout from './Components/Layout/Layout';
 import Demos from './Components/Demos/Demos';
 import Services from './Components/Services/Services';
 import Blog from './Components/Blog/Blog';
-import Pages from './Components/Pages/Pages';
 import Portfolio from './Components/Portfolio/Portfolio';
 import About from './Components/About/About';
+import Team from './Components/Team/Team';
 
 const router = createBrowserRouter([
   {
@@ -35,8 +35,8 @@ const router = createBrowserRouter([
     }
     ,
     {
-      path:'/pages',
-      element:<Pages></Pages>
+      path:'/team',
+      element:<Team></Team>
     }
     ,
     {

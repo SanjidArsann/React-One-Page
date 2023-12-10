@@ -1,13 +1,12 @@
-
 import "../Style/ActiveLink.css";
 import { ChevronRightIcon } from "@heroicons/react/24/solid";
 import About from "../About/About";
 import Services from "../Services/Services";
 import Portfolio from "../Portfolio/Portfolio";
 import BannerImage from "../../../public/hero-one-img-2.jpeg";
-import ShapeOne from '../../../public/shape-1.png';
-import CircleLogoOne from '../../../public/circle-logo-1.png';
-import ShapeTwo from '../../../public/shape-2.png'
+import ShapeOne from "../../../public/shape-1.png";
+import CircleLogoOne from "../../../public/circle-logo-1.png";
+import ShapeTwo from "../../../public/shape-2.png";
 import Blog from "../Blog/Blog";
 import Footer from "../Footer/Footer";
 import Work from "../Work/Work";
@@ -15,14 +14,12 @@ import Achievement from "../Achievement/Achievement";
 import Team from "../Team/Team";
 import Contact from "../Contact/Contact";
 
-
 const Demos = () => {
   return (
     <main className="">
       <section className=" md:relative  mx-auto bg-image  h-screen bg-cover bg-no-repeat bg-top  ">
         <div className="grid grid-cols-2  md:pt-20 md:gap-20  md:mx-28">
           <div>
-          
             <h1 className="text-3xl  lg:text-6xl  md:mt-36  mb-8 font-bold">
               Brand, Design & Development Agency
             </h1>
@@ -43,7 +40,6 @@ const Demos = () => {
               src={BannerImage}
               alt="BannerImage"
             />
-            
           </div>
           <div>
             <img

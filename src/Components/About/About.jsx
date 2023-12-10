@@ -1,7 +1,7 @@
 import { ChevronRightIcon, CheckCircleIcon } from "@heroicons/react/24/solid";
-import BorderOne from '../../../public/border-1.png';
-import AboutImg from '../../../public/about-1.jpeg';
-import CircleLogoTwo from '../../../public/circle-logo-2.png'
+import BorderOne from "../../../public/border-1.png";
+import AboutImg from "../../../public/about-1.jpeg";
+import CircleLogoTwo from "../../../public/circle-logo-2.png";
 
 const About = () => {
   return (
@@ -9,19 +9,11 @@ const About = () => {
       <section className="  mx-auto bg bg-white h-screen bg-cover bg-no-repeat bg-top  ">
         <div className="pt-32 grid grid-cols-2  md:gap-20  md:mx-28">
           <div>
-            <img
-              className="rounded-full "
-              src={AboutImg}
-              alt="AboutImg"
-            />
+            <img className="rounded-full " src={AboutImg} alt="AboutImg" />
           </div>
 
           <div className="relative">
-            <img
-              className="absolute top-16"
-              src={BorderOne}
-              alt="Border-one"
-            />
+            <img className="absolute top-16" src={BorderOne} alt="Border-one" />
 
             <h3 className="mt-20 text-indigo-600 font-semibold pl-8 text-3xl">
               About us

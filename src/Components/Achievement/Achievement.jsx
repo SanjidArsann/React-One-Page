@@ -2,14 +2,12 @@ import { useEffect, useState } from "react";
 import BorderOne from "../../../public/border-1.png";
 import Achieve from "./Achieve";
 const Achievement = () => {
-
-  
-    const[achieves, setAchieves] = useState([]);
-    useEffect(()=>{
-        fetch('../../../public/json/achievement.json')
-        .then(res => res.json())
-        .then(data => setAchieves(data))
-    },[])
+  const [achieves, setAchieves] = useState([]);
+  useEffect(() => {
+    fetch("../../../public/json/achievement.json")
+      .then((res) => res.json())
+      .then((data) => setAchieves(data));
+  }, []);
   return (
     <main className=" relative">
       <section className="mx-28 pt-28 mb-20">
@@ -33,14 +31,12 @@ const Achievement = () => {
           </p>
         </div>
         <div className="grid grid-cols-4 mt-16">
-          
-          {
-            achieves?.map(achieve=> <Achieve
-            key={achieve.completedProjects}
-            achieve={achieve}
-            ></Achieve>)
-          }
-          
+          {achieves?.map((achieve) => (
+            <Achieve
+              key={achieve.completedProjects}
+              achieve={achieve}
+            ></Achieve>
+          ))}
         </div>
       </section>
     </main>
