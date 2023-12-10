@@ -12,6 +12,8 @@ import Blog from "../Blog/Blog";
 import Footer from "../Footer/Footer";
 import Work from "../Work/Work";
 import Achievement from "../Achievement/Achievement";
+import Team from "../Team/Team";
+import Contact from "../Contact/Contact";
 
 
 const Demos = () => {
@@ -72,6 +74,8 @@ const Demos = () => {
       <Work></Work>
       <Achievement></Achievement>
       <Blog></Blog>
+      <Team></Team>
+      <Contact></Contact>
       <Footer></Footer>
     </main>
   );

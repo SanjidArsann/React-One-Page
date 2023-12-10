@@ -1,0 +1,27 @@
+[
+    {
+        "id":"1",
+      "name": "John R. Doe",
+      "designation": "Web Developer",
+      "image": "../img-1.jpeg"
+    },
+    {
+        "id":"2",
+      "name": "Jane M. Smith",
+      "designation": "SEO Marketing",
+      "image": "../img-2.jpeg"
+    },
+    {
+        "id":"3",
+      "name": "Bob Johnson",
+      "designation": "UI/UX Designer",
+      "image": "../img-3.jpeg"
+    },
+    {
+        "id":"4",
+      "name": "Alice Brown",
+      "designation": "Product Manager",
+      "image": "../img-4.jpeg"
+    }
+  ]
+  
