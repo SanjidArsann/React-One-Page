@@ -21,7 +21,7 @@ const Service = ({ service }) => {
           <span className="text-lg font-semibold ">{service.features[2]}</span>
         </div>
         <div className="flex text-indigo-500 font-bold hover:text-indigo-700">
-          <a className="underline text-lg " href="">
+          <a className="underline text-lg " href="#">
             Read More
           </a>
           <ArrowRightIcon className="h-4 w-4 mt-2 ml-2" />

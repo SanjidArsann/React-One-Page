@@ -53,7 +53,7 @@ const Contact = () => {
                 <div className="mt-8">
                   <form>
                     <div className="grid grid-cols-2 gap-4">
-                      <div className="">
+                      <div>
                         <input
                           type="text"
                           className="p-2 appearance-none focus:outline-none w-[100%] h-16 rounded-md border-[1px] pl-8 placeholder-black "

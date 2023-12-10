@@ -7,7 +7,7 @@ const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   useEffect(() => {
-    fetch("../../../public/json/project.json")
+    fetch("json/project.json")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);

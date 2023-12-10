@@ -5,7 +5,7 @@ import Member from "./Member";
 const Team = () => {
   const [members, setMembers] = useState([]);
   useEffect(() => {
-    fetch("../../../public/json/members.json")
+    fetch("json/members.json")
       .then((res) => res.json())
       .then((data) => setMembers(data));
   }, []);

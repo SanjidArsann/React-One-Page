@@ -22,46 +22,46 @@ const Footer = () => {
             <h2 className="text-2xl font-bold">Services</h2>
             <ul className="my-6 text-[18px] font-semibold">
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">UI/UX Design</a>
+                <a href="#">UI/UX Design</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Web Development</a>
+                <a href="#">Web Development</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">SEO Optimization</a>
+                <a href="#">SEO Optimization</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Product Design</a>
+                <a href="#">Product Design</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Logo Design</a>
+                <a href="#">Logo Design</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Brand Design</a>
+                <a href="#">Brand Design</a>
               </li>
-              <a href=""></a>
+              <a href="#"></a>
             </ul>
           </div>
           <div>
             <h2 className="text-2xl font-bold">Links</h2>
             <ul className="my-6 text-[18px] font-semibold">
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">UI/UX Design</a>
+                <a href="#">UI/UX Design</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Web Development</a>
+                <a href="#">Web Development</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">SEO Optimization</a>
+                <a href="#">SEO Optimization</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Product Design</a>
+                <a href="#">Product Design</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Logo Design</a>
+                <a href="#">Logo Design</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Brand Design</a>
+                <a href="#">Brand Design</a>
               </li>
               <a href=""></a>
             </ul>
@@ -70,31 +70,31 @@ const Footer = () => {
             <h2 className="text-2xl font-bold">Follow</h2>
             <ul className="my-6 text-[18px] font-semibold">
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">UI/UX Design</a>
+                <a href="#">UI/UX Design</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Web Development</a>
+                <a href="#">Web Development</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">SEO Optimization</a>
+                <a href="#">SEO Optimization</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Product Design</a>
+                <a href="#">Product Design</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Logo Design</a>
+                <a href="#">Logo Design</a>
               </li>
               <li className="mb-6 text-gray-400 hover:text-indigo-600 hover:underline">
-                <a href="http://">Brand Design</a>
+                <a href="#">Brand Design</a>
               </li>
-              <a href=""></a>
+              <a href="#"></a>
             </ul>
           </div>
           <div>
             <h2 className="text-[40px] font-bold">Subscribe Our Newsletter</h2>
             <p className="mt-6 text-[18px] text-gray-400 font-medium">
               Natus errorsit voluptatem accusa dolore mque quae{" "}
-              <a href="">abillo inventore verita</a> achitec beatae vitae dicta
+              <a href="#">abillo inventore verita</a> achitec beatae vitae dicta
               sunt explicabo.
             </p>
             <div className="mt-6 py-2 px-2 rounded-md grid grid-cols-2 gap-2 bg-gray-200">
@@ -118,13 +118,13 @@ const Footer = () => {
           <div>
             <ul className="flex justify-end">
               <li className="pr-10 text-lg font-medium text-gray-500 hover:text-indigo-600">
-                <a href="">Settings & Privacy</a>
+                <a href="#">Settings & Privacy</a>
               </li>
               <li className="pr-10 text-lg font-medium text-gray-500 hover:text-indigo-600">
-                <a href="">Faqs</a>
+                <a href="#">Faqs</a>
               </li>
               <li className="pr-10 text-lg font-medium text-gray-500 hover:text-indigo-600">
-                <a href="">Services</a>
+                <a href="#">Services</a>
               </li>
             </ul>
           </div>

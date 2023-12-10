@@ -39,7 +39,7 @@ const Header = () => {
           </ActiveLink>
         </div>
         <div className=" h-12 w-12 mt-5 rounded-md flex  justify-start align-middle bg-indigo-600">
-          <a href="" className=" p-4">
+          <a href="#" className=" p-4">
             <img className="h-4 w-4 flex align-middle" src={Dot} alt="Dot" />
           </a>
         </div>

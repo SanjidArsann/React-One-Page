@@ -4,7 +4,7 @@ import Achieve from "./Achieve";
 const Achievement = () => {
   const [achieves, setAchieves] = useState([]);
   useEffect(() => {
-    fetch("../../../public/json/achievement.json")
+    fetch("json/achievement.json")
       .then((res) => res.json())
       .then((data) => setAchieves(data));
   }, []);

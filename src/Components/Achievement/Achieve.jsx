@@ -3,7 +3,7 @@ const Achieve = ({ achieve }) => {
   return (
     <div>
       <div className="hover:bg-custom bg-center bg-cover bg-no-repeat p-8 shadow-md ">
-        <img className="rounded-lg" src={achieve?.image} alt="" />
+        <img className="rounded-lg" src={achieve?.image} alt="logo" />
         <h2 className="text-5xl mt-6 font-bold">{achieve.completedProjects}</h2>
         <p className="text-lg my-6 font-medium text-gray-400">
           {achieve.category}

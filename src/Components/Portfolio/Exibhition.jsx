@@ -16,13 +16,13 @@ const Exibhition = ({ project }) => {
         <div className="mt-8">
           <a
             className="text-2xl font-bold hover:text-indigo-600  transition ease-in-out duration-500"
-            href=""
+            href="#"
           >
             {project.category}{" "}
           </a>
           <br />
           <div className="mt-2 text-lg font-semibold text-gray-500 hover:text-indigo-600 ">
-            <a href="">{project.Type}</a>
+            <a href="#">{project.Type}</a>
           </div>
         </div>
       </div>
