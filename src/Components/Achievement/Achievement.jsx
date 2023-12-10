@@ -35,7 +35,7 @@ const Achievement = () => {
         <div className="grid grid-cols-4 mt-16">
           
           {
-            achieves.map(achieve=> <Achieve
+            achieves?.map(achieve=> <Achieve
             key={achieve.completedProjects}
             achieve={achieve}
             ></Achieve>)
