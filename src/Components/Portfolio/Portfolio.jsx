@@ -3,7 +3,7 @@ import BorderOne from "../../../public/border-1.png";
 import Exibhition from "./Exibhition";
 
 const Portfolio = () => {
-  
+
   const [projects, setProjects] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);
 

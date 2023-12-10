@@ -34,7 +34,7 @@ const Team = () => {
         </div>
         <div className="grid grid-cols-4 gap-8 mt-16">
             {
-                members.map(member=> <Member
+                members?.map(member=> <Member
                 key={member.id}
                 member={member}
                 ></Member>)

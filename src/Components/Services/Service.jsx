@@ -32,6 +32,6 @@ const Service = ({ service }) => {
 };
 
 Service.propTypes = {
-  service: PropTypes.isRequired,
+  service: PropTypes.object.isRequired,
 };
 export default Service;

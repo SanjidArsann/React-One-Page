@@ -29,7 +29,7 @@ useEffect(() =>{
         </div>
         <div className="grid grid-cols-3 gap-8 mx-24 mt-16">
             {
-                services.map(service => <Service
+                services?.map(service => <Service
                     key= {service.id}
                     service={service}
                 ></Service> )

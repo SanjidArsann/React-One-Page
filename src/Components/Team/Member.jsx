@@ -35,6 +35,6 @@ const Member = ({member}) => {
     );
 };
 Member.propTypes = {
-    member: PropTypes.isRequired,
+    member: PropTypes.object.isRequired,
   };
 export default Member;

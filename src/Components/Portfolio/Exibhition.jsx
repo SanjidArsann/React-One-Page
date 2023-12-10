@@ -27,6 +27,6 @@ const Exibhition = ({project}) => {
     );
 };
 Exibhition.propTypes = {
-    project: PropTypes.isRequired,
+    project: PropTypes.object.isRequired,
   };
 export default Exibhition;
