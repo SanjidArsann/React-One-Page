@@ -6,10 +6,10 @@ const Footer = () => {
             <div className='mx-28 '>
             <div className='border-b-[2px]'>
                 <div className="grid grid-cols-2 mb-12 ">
-                    <div className="mt-12 pt-3 border-r-[2px] ">
-                        <img src={FooterLogo} alt="FooterLogo" />
+                    <div className="mt-12 h-20 pt-3 border-r-[2px] ">
+                        <img className="h-16" src={FooterLogo} alt="FooterLogo" />
                     </div >
-                    <div className="mt-12 text-[40px] font-bold">
+                    <div className="mt-8 h-20  text-[40px] font-bold">
                         <h2 className="ml-36">Modern Solutionsd For <span className="text-indigo-600">Creative Agency</span></h2>
                     </div>
                 </div>

@@ -3,25 +3,25 @@
         "id":"1",
       "name": "John R. Doe",
       "designation": "Web Developer",
-      "image": "../img-1.jpeg"
+      "image": "https://i.ibb.co/KhgwBDg/img-1.jpg"
     },
     {
         "id":"2",
       "name": "Jane M. Smith",
       "designation": "SEO Marketing",
-      "image": "../img-2.jpeg"
+      "image": "https://i.ibb.co/hXH2YLx/img-2.jpg"
     },
     {
         "id":"3",
       "name": "Bob Johnson",
       "designation": "UI/UX Designer",
-      "image": "../img-3.jpeg"
+      "image": "https://i.ibb.co/Dw13kF6/img-3-1.jpg"
     },
     {
         "id":"4",
       "name": "Alice Brown",
       "designation": "Product Manager",
-      "image": "../img-4.jpeg"
+      "image": "https://i.ibb.co/QDL1xpJ/img-4.jpg"
     }
   ]
   

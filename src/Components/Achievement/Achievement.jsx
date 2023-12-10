@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import BorderOne from "../../../public/border-1.png";
 import Achieve from "./Achieve";
 const Achievement = () => {
+
+  
     const[achieves, setAchieves] = useState([]);
     useEffect(()=>{
         fetch('../../../public/json/achievement.json')
