@@ -6,12 +6,12 @@ import AnimatedImage from "../../../public/shape-4 (1).png";
 const Contact = () => {
   return (
     <main className="relative">
-      <section className="pt-16 mx-28 pb-32 ">
+      <section className="pt-16 lg:mx-28 md:mx-20 mx-10 pb-32 ">
         <div className="mx-auto">
-          <div className="flex flex-row align-center">
-            <div className="w-2/3 pr-12">
+          <div className="lg:flex lg:flex-row align-center">
+            <div className="lg:w-2/3 lg:pr-12">
               <div className=" mb-8">
-                <h2 className="text-7xl font-bold mb-10">
+                <h2 className="lg:text-7xl md:text-5xl text-3xl font-bold mb-10">
                   Have Any on <span className="text-indigo-600">Project</span>{" "}
                   Mind!
                   <span className="text-indigo-600">Contact</span> Us
@@ -22,7 +22,7 @@ const Contact = () => {
                   inventore laudantium minus veniam ullam odit repellendus
                   quibusdam et, fugiat numquam perspiciatis, dolor nulla.
                 </p>
-                <div className="grid grid-cols-2 gap-8">
+                <div className="grid lg:grid-cols-2 gap-8">
                   <div className=" mb-2 ">
                     <div className="text-indigo-600">
                       <FontAwesomeIcon icon={faMailBulk} />
@@ -31,7 +31,7 @@ const Contact = () => {
                       </span>
                     </div>
                     <div className="info">
-                      <h4 className="text-2xl font-bold">
+                      <h4 className="lg:text-2xl text-lg font-bold">
                         <a href="mailto:support@gmail.com">support@gmail.com</a>
                       </h4>
                     </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                       </span>
                     </div>
                     <div className="info">
-                      <h4 className="text-2xl font-bold">
+                      <h4 className="lg:text-2xl text-lg font-bold">
                         <a href="tel:+880 1764818704">+880 1764818704</a>
                       </h4>
                     </div>
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div className="mt-8">
                   <form>
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid lg:grid-cols-2 gap-4">
                       <div>
                         <input
                           type="text"
@@ -89,7 +89,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute right-0 top-1/3  ">
+            <div className="absolute hidden lg:block right-0 top-1/3  ">
               <div>
                 <img src={AnimatedImage} alt="AnimatedImage" />
               </div>

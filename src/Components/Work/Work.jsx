@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <div className="relative pb-20">
       <div className="bg-indigo-500">
-        <div className="mx-28 pb-20 ">
+        <div className="xl:mx-28 md:mx-20 mx-12 pb-20 ">
           <div className="relative">
             <img
               className="absolute top-24 left-2"
@@ -13,12 +13,12 @@ const Work = () => {
               alt="BorderOne"
             />
 
-            <h3 className="pt-28 text-white font-semibold pl-8 text-2xl">
+            <h3 className="md:pt-28 pt-10 text-white font-semibold pl-8 text-lg md:text-xl">
               Latest Work
             </h3>
-            <div className="grid grid-cols-2">
+            <div className="grid xl:grid-cols-2 mt-3">
               <div className=" ">
-                <h1 className=" md:text-5xl leading-8 mt-10 mb-8 font-bold">
+                <h1 className="text-2xl lg:text-5xl leading-8 lg:mt-10 mb-8 font-bold">
                   <span className="text-white">Experience & innovative</span>{" "}
                   solutions <span className="text-white">for</span>{" "}
                   <span className="font-crimson-pro">creative</span>{" "}
@@ -34,7 +34,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 right-28">
+      <div className="hidden xl:block absolute bottom-0 right-28">
         <img className=" rounded-full" src={banner} alt="banner" />
       </div>
     </div>

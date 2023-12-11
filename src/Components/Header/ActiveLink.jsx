@@ -9,8 +9,8 @@ const ActiveLink = ({ to, children }) => {
         to={to}
         className={({ isActive }) =>
           isActive
-            ? "flex justify-normal active font-bold text-md  px-4 pt-8 text-indigo-600 hover:text-indigo-600 "
-            : "hover:text-indigo-600  px-4 pt-8 text-md font-bold text-gray-600 active flex justify-normal "
+            ? "flex justify-normal active md:font-semibold lg:font-bold lg:text-md  lg:px-4 pt-8 text-indigo-600 hover:text-indigo-600 "
+            : "hover:text-indigo-600 pt-8 md:px-1 lg:px-4  md:font-semibold lg:font-bold lg:text-md text-gray-600 active flex justify-normal "
         }
       >
         {children}

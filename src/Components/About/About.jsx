@@ -5,19 +5,29 @@ import CircleLogoTwo from "../../../public/circle-logo-2.png";
 
 const About = () => {
   return (
-    <main className="relative">
+    <main >
       <section className="  mx-auto bg bg-white h-screen bg-cover bg-no-repeat bg-top  ">
-        <div className="pt-32 grid grid-cols-2  md:gap-20  md:mx-28">
-          <div>
-            <img className="rounded-full " src={AboutImg} alt="AboutImg" />
+        <div className="pt-32 lg:grid grid-cols-2 p-4 md:gap-20  lg:mx-20 xl:mx-28">
+          <div className="relative ">
+            <img className="rounded-full lg:mt-28 " src={AboutImg} alt="AboutImg" />
+            <div>
+            <img
+              src={CircleLogoTwo}
+              className=" animate-bounce duration-1000 ease-in-out absolute left-0 bottom-0"
+              alt="CircleLogoTwo"
+            />
+          </div>
           </div>
 
           <div className="relative">
-            <img className="absolute top-16" src={BorderOne} alt="Border-one" />
-
-            <h3 className="mt-20 text-indigo-600 font-semibold pl-8 text-3xl">
+          <div className="">
+          <h3 className="mt-20 p-4 lg:pt-0 text-indigo-600 font-semibold pl-8 text-3xl">
               About us
             </h3>
+            <img className="absolute top-0 lg:top-16" src={BorderOne} alt="Border-one" />
+          </div>
+
+            
             <h1 className="text-3xl  lg:text-5xl  mt-10  mb-8 font-bold">
               We’re Creative Agency Since 1993
             </h1>
@@ -49,18 +59,12 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <button className="flex md:mt-10 py-4 px-12 border-solid border-2 border-indigo-600 font-semibold rounded-lg bg-white text-indigo-600 hover:text-white hover:bg-indigo-600 transition ease-in-out duration-600">
+            <button className="flex mt-10 py-4 px-12 border-solid border-2 border-indigo-600 font-semibold rounded-lg bg-white text-indigo-600 hover:text-white hover:bg-indigo-600 transition ease-in-out duration-600">
               Let<span>{`'`}</span>s Talk Us
               <ChevronRightIcon className="  h-4 w-4 mt-1 " />
             </button>
           </div>
-          <div>
-            <img
-              src={CircleLogoTwo}
-              className=" animate-bounce duration-1000 ease-in-out absolute left-20 bottom-20"
-              alt="CircleLogoTwo"
-            />
-          </div>
+          
         </div>
       </section>
     </main>

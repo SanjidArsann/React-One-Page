@@ -11,7 +11,7 @@ const Services = () => {
   }, []);
   return (
     <main className=" relative">
-      <section className="py-28">
+      <section className="lg:py-28 py-14 lg:mx-24 mx-4 ">
         <div>
           <h3 className="text-center pt-3 text-indigo-600 font-semibold text-3xl ">
             Services
@@ -19,7 +19,7 @@ const Services = () => {
 
           <div className="flex justify-center">
             <img
-              className="absolute top-[110px]"
+              className="absolute top-[55px] lg:top-[110px] "
               src={BorderOne}
               alt="BorderOne"
             />
@@ -31,7 +31,7 @@ const Services = () => {
             Professional Design Agency to provide solutions
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-8 mx-24 mt-16">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8  mt-16">
           {services?.map((service) => (
             <Service key={service.id} service={service}></Service>
           ))}

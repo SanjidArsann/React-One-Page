@@ -16,14 +16,14 @@ import Contact from "../Contact/Contact";
 
 const Demos = () => {
   return (
-    <main className="">
-      <section className=" md:relative  mx-auto bg-image  h-screen bg-cover bg-no-repeat bg-top  ">
-        <div className="grid grid-cols-2  md:pt-20 md:gap-20  md:mx-28">
+    <main>
+      <section className="relative  mx-auto bg-image  h-screen bg-cover bg-no-repeat bg-top  ">
+        <div className="grid lg:grid-cols-2 p-4 sm:p-10 md:pt-10 lg:gap-20 lg:mx-20 xl:mx-28">
           <div>
-            <h1 className="text-3xl  lg:text-6xl  md:mt-36  mb-8 font-bold">
+            <h1 className="text-5xl  md:text-6xl  mt-36 mb-6 lg:mb-8 font-bold">
               Brand, Design & Development Agency
             </h1>
-            <p className="md:text-md md:mt-16">
+            <p className="text-md mb-10 md:mt-16">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
               molestias dicta facilis? Dolorem quisquam porro esse ullam
               deleniti corrupti quae amet, explicabo sit expedita, veniam
@@ -36,34 +36,36 @@ const Demos = () => {
           </div>
           <div>
             <img
-              className="hidden sm:block h-30 ml-20 md:mt-20 rounded-full hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-500"
+              className="hidden lg:block w-full lg:ml-20 mt-36 rounded-full hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-500"
               src={BannerImage}
               alt="BannerImage"
             />
-          </div>
-          <div>
+            <div>
             <img
-              className="md:absolute hidden top-28 left-9 sm:block hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-600"
-              src={ShapeOne}
-              alt="ShapeOne"
-            />
-          </div>
-          <div>
-            <img
-              className="md:absolute hidden bottom-64 right-1/3 sm:block animate-bounce duration-500 ease-in-out "
+              className="md:absolute hidden bottom-40 right-1/3 lg:block animate-bounce duration-500 ease-in-out "
               src={CircleLogoOne}
               alt="CircleLogoOne"
             />
           </div>
+          </div>
           <div>
             <img
-              className="md:absolute hidden top-48 right-1/3 sm:block hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-600"
+              className="absolute  md:top-28 top-16 left-9  hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-600"
+              src={ShapeOne}
+              alt="ShapeOne"
+            />
+          </div>
+          
+          <div>
+            <img
+              className="absolute  lg:top-48 top-36 right-1/3 block hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-600"
               src={ShapeTwo}
               alt="ShapeTwo"
             />
           </div>
         </div>
       </section>
+      
       <About></About>
       <Services></Services>
       <Portfolio></Portfolio>

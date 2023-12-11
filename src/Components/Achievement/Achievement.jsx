@@ -10,7 +10,7 @@ const Achievement = () => {
   }, []);
   return (
     <main className=" relative">
-      <section className="mx-28 pt-28 mb-20">
+      <section className="xl:mx-28 lg:mx-20 mx-4 lg:pt-28 md:mb-20">
         <div>
           <h3 className="text-center pt-6 text-indigo-600 font-semibold text-2xl ">
             Agency Statistics
@@ -18,7 +18,7 @@ const Achievement = () => {
 
           <div className="flex justify-center">
             <img
-              className="absolute top-[110px] w-[220px] h-18"
+              className="absolute lg:top-[110px] md:top-[0px] top-[0px] w-[220px] h-18"
               src={BorderOne}
               alt="BorderOne"
             />
@@ -30,7 +30,7 @@ const Achievement = () => {
             Professional Design Agency to provide solutions
           </p>
         </div>
-        <div className="grid grid-cols-4 mt-16">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 lg:gap-0 mt-16">
           {achieves?.map((achieve) => (
             <Achieve
               key={achieve.completedProjects}
