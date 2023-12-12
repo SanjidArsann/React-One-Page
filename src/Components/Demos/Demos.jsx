@@ -16,7 +16,7 @@ import Contact from "../Contact/Contact";
 
 const Demos = () => {
   return (
-    <main>
+    <main className=" container mx-auto !px-0 ">
       <section className="relative  mx-auto bg-image  h-screen bg-cover bg-no-repeat bg-top  ">
         <div className="grid lg:grid-cols-2 p-4 sm:p-10 md:pt-10 lg:gap-20 lg:mx-20 xl:mx-28">
           <div>

@@ -30,7 +30,7 @@ const Achievement = () => {
             Professional Design Agency to provide solutions
           </p>
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 lg:gap-0 mt-16">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4  mt-16">
           {achieves?.map((achieve) => (
             <Achieve
               key={achieve.completedProjects}

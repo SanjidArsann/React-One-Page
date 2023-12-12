@@ -22,7 +22,7 @@ const Header = () => {
       </div>
         </div>
 
-        <div onClick={() => setOpen(!open)} className={`md:flex md:static  align-middle  absolute duration-1000  bg-gradient-to-r from-slate-50 via-slate-50 to-slate-10 px-10 pr-32 pb-10 rounded-bl-lg ${open ? "top-18" : "-top-96"} `}>
+        <div onClick={() => setOpen(!open)} className={`md:flex md:static  align-middle  absolute duration-1000  bg-gradient-to-r from-slate-50 via-slate-50 to-slate-45 px-10 pr-64 pb-10 rounded-bl-lg ${open ? "top-18" : "-top-96"} `}>
           <ActiveLink to="/">
             <span >Demos</span>
             <ChevronDownIcon className=" h-4 w-4 mt-2  hover:text-indigo-600" />
