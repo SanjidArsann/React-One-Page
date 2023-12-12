@@ -9,13 +9,13 @@ import {
 const Member = ({ member }) => {
   return (
     <div>
-      <div className="relative group ">
+      <div className="relative group">
         <img
           className=" h-[325px] w-[270px] rounded-full"
           src={member.image}
           alt="member"
         />
-        <div className="social-link  ">
+        <div className="social-link ">
           <ul className="flex justify-center opacity-0 group-hover:opacity-100 transition-all duration-1000 ">
             <li className="absolute  bg-white opacity-100 bottom-[65px] flex justify-center align-middle m-4 p-2 h-10 w-10 rounded-full shadow-lg">
               <a href="#">
