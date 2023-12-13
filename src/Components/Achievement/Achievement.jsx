@@ -10,7 +10,8 @@ const Achievement = () => {
   }, []);
   return (
     <main className=" relative">
-      <section className="xl:mx-28 lg:mx-20 mx-4 lg:pt-28 md:mb-20">
+      <section className=" xl:mx-28 lg:mx-20 lg:pt-28 md:mb-20">
+        <div className="container mx-auto">
         <div>
           <h3 className="text-center pt-6 text-indigo-600 font-semibold text-2xl ">
             Agency Statistics
@@ -37,6 +38,7 @@ const Achievement = () => {
               achieve={achieve}
             ></Achieve>
           ))}
+        </div>
         </div>
       </section>
     </main>

@@ -3,7 +3,8 @@ import FooterLogo from "../../../public/footer-logo-1.png";
 const Footer = () => {
   return (
     <footer className="bg-gray-50">
-      <div className="lg:mx-28 md:mx-20 mx-4">
+      <div className="container mx-auto">
+      <div className=" lg:mx-28 md:mx-20 ">
         <div className="border-b-[2px]">
           <div className="grid lg:grid-cols-2 mb-12 ">
             <div className="mt-12 h-20 mb-5 lg:mb-0 pl-10 lg:pl-0 lg:pt-3 lg:border-r-[2px] lg:border-0 border-b-[2px] ">
@@ -129,6 +130,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+      </div>
       </div>
     </footer>
   );

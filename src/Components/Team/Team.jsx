@@ -11,7 +11,8 @@ const Team = () => {
   }, []);
   return (
     <main className=" relative">
-      <section className="xl:mx-28 lg:mx-20 mx-4 pt-28 mb-20">
+      <section className=" xl:mx-28 lg:mx-20  pt-28 mb-20">
+        <div className="container mx-auto">
         <div>
           <h3 className="text-center pt-6 text-indigo-600 font-semibold text-2xl ">
             Meet Our Team
@@ -35,6 +36,7 @@ const Team = () => {
           {members?.map((member) => (
             <Member key={member.id} member={member}></Member>
           ))}
+        </div>
         </div>
       </section>
     </main>

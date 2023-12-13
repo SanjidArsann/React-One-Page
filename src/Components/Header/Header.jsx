@@ -9,7 +9,9 @@ const Header = () => {
   const[open, setOpen] = useState(false);
   return (
     <nav className="fixed  md:block w-full  z-40">
-      <div className="md:flex md:h-[90px] md:justify-between md:align-middle px-16 bg-cover bg-center bg-gradient-to-r from-slate-50 via-slate-50 to-white  ">
+      <div className="bg-cover bg-center bg-gradient-to-r from-slate-50 via-slate-50 to-white ">
+      <div className="container mx-auto">
+      <div className=" md:flex md:h-[90px] md:justify-between md:align-middle px-16  ">
         <div className="flex md:align-middle  md:justify-center justify-between pt-5 ">
           <img className="h-11" src={LogoOne} alt="LogoOne" />
           <div onClick={() => setOpen(!open)} className="md:hidden">
@@ -59,6 +61,8 @@ const Header = () => {
             </a>
           </div>
         </div>
+      </div>
+      </div>
       </div>
 
       <div className="border-b-[1px] border-gray mx-16"></div>

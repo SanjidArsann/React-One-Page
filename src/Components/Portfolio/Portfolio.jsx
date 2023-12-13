@@ -22,6 +22,7 @@ const Portfolio = () => {
 
   return (
     <main className="bg-gray-100">
+      <section className="container mx-auto">
       <div className=" lg:mx-20 xl:mx-28 mx-4 lg:pb-28 pb-10 pt-16">
         <div className="relative">
           <img
@@ -75,6 +76,7 @@ const Portfolio = () => {
             ))}
         </div>
       </div>
+      </section>
     </main>
   );
 };

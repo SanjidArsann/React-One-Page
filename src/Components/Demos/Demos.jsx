@@ -16,8 +16,9 @@ import Contact from "../Contact/Contact";
 
 const Demos = () => {
   return (
-    <main className=" container mx-auto !px-0 ">
+    <main className=" ">
       <section className="relative  mx-auto bg-image  h-screen bg-cover bg-no-repeat bg-top  ">
+        <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 p-4 sm:p-10 md:pt-10 lg:gap-20 lg:mx-20 xl:mx-28">
           <div>
             <h1 className="text-5xl  md:text-6xl  mt-36 mb-6 lg:mb-8 font-bold">
@@ -63,6 +64,7 @@ const Demos = () => {
               alt="ShapeTwo"
             />
           </div>
+        </div>
         </div>
       </section>
       

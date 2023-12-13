@@ -6,7 +6,7 @@ import CircleLogoTwo from "../../../public/circle-logo-2.png";
 const About = () => {
   return (
     <main >
-      <section className="  mx-auto bg bg-white h-screen bg-cover bg-no-repeat bg-top  ">
+      <section className="container  mx-auto bg bg-white h-screen bg-cover bg-no-repeat bg-top  ">
         <div className="pt-32 lg:grid grid-cols-2 p-4 md:gap-20  lg:mx-20 xl:mx-28">
           <div className="relative ">
             <img className="rounded-full lg:mt-28 " src={AboutImg} alt="AboutImg" />

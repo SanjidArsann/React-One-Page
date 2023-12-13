@@ -5,6 +5,7 @@ const Work = () => {
   return (
     <div className="relative pb-20">
       <div className="bg-indigo-500">
+      <div className="container mx-auto">
         <div className="xl:mx-28 md:mx-20 mx-12 pb-20 ">
           <div className="relative">
             <img
@@ -34,7 +35,8 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div className="hidden xl:block absolute bottom-0 right-28">
+      </div>
+      <div className=" hidden xl:block absolute bottom-0 right-28">
         <img className=" rounded-full" src={banner} alt="banner" />
       </div>
     </div>
