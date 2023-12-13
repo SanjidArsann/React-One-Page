@@ -16,8 +16,8 @@ import Contact from "../Contact/Contact";
 
 const Demos = () => {
   return (
-    <main className=" container mx-auto !px-0 ">
-      <section className="relative  mx-auto bg-image  h-screen bg-cover bg-no-repeat bg-top  ">
+    <main >
+      <section className="relative conatiner mx-auto bg-image  h-screen bg-cover bg-no-repeat bg-top  ">
         <div className="grid lg:grid-cols-2 p-4 sm:p-10 md:pt-10 lg:gap-20 lg:mx-20 xl:mx-28">
           <div>
             <h1 className="text-5xl  md:text-6xl  mt-36 mb-6 lg:mb-8 font-bold">
@@ -41,12 +41,12 @@ const Demos = () => {
               alt="BannerImage"
             />
             <div>
-            <img
-              className="md:absolute hidden bottom-40 right-1/3 lg:block animate-bounce duration-500 ease-in-out "
-              src={CircleLogoOne}
-              alt="CircleLogoOne"
-            />
-          </div>
+              <img
+                className="md:absolute hidden bottom-40 right-1/3 lg:block animate-bounce duration-500 ease-in-out "
+                src={CircleLogoOne}
+                alt="CircleLogoOne"
+              />
+            </div>
           </div>
           <div>
             <img
@@ -55,7 +55,7 @@ const Demos = () => {
               alt="ShapeOne"
             />
           </div>
-          
+
           <div>
             <img
               className="absolute  lg:top-48 top-36 right-1/3 block hover:transform hover:translate-x-4 hover:translate-y-0 transition-transform ease-in-out duration-600"
@@ -65,7 +65,7 @@ const Demos = () => {
           </div>
         </div>
       </section>
-      
+
       <About></About>
       <Services></Services>
       <Portfolio></Portfolio>
