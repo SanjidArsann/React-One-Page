@@ -13,7 +13,7 @@ const Blog = () => {
   return (
     <main className=" relative">
       <section className="container mx-auto  pt-28 mb-20">
-        <div className="lg:mx-10">
+        <div className="mx-10 ">
         <div>
           <h3 className="text-center pt-3 text-indigo-600 font-semibold text-2xl ">
             Articles News

@@ -10,7 +10,7 @@ const Achievement = () => {
   }, []);
   return (
     <main className=" relative">
-      <section className=" lg:mx-20 lg:pt-28 md:mb-20">
+      <section className=" md:mx-20 mx-10 lg:pt-28 md:mb-20">
         <div className="container mx-auto">
         <div>
           <h3 className="text-center pt-6 text-indigo-600 font-semibold text-2xl ">
