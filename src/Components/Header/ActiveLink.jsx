@@ -19,7 +19,7 @@ const ActiveLink = ({ to, children }) => {
   );
 };
 ActiveLink.propTypes = {
-  to: PropTypes.object.isRequired,
-  children: PropTypes.object.isRequired,
+  to: PropTypes.string.isRequired,
+  children: PropTypes.array.isRequired,
 };
 export default ActiveLink;
