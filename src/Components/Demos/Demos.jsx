@@ -19,7 +19,7 @@ const Demos = () => {
     <main className=" ">
       <section className="relative  mx-auto bg-image  h-screen bg-cover bg-no-repeat bg-top  ">
         <div className="container mx-auto">
-        <div className="grid lg:grid-cols-2 p-4 sm:p-10 md:pt-10 lg:gap-20 lg:mx-20 xl:mx-28">
+        <div className="grid lg:grid-cols-2 p-4 sm:p-10 md:pt-10 lg:gap-20 ">
           <div>
             <h1 className="text-5xl  md:text-6xl  mt-36 mb-6 lg:mb-8 font-bold">
               Brand, Design & Development Agency

@@ -32,7 +32,7 @@ const Blog = () => {
             Professional Design Agency to provide solutions
           </p>
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-8 gap-4 lg:mx-24 mx-4 mt-16">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-8 gap-4  mt-16">
           {blogs?.map((news) => (
             <News key={news.id} news={news}></News>
           ))}
