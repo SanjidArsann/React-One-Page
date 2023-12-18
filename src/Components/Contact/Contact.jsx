@@ -6,7 +6,7 @@ import AnimatedImage from "../../../public/shape-4 (1).png";
 const Contact = () => {
   return (
     <main className="relative">
-      <section className="pt-16 lg:mx-28 md:mx-20  pb-32  ">
+      <section className="pt-16  md:mx-20  pb-32  ">
         <div className="container mx-auto">
           <div className="lg:flex lg:flex-row align-center">
             <div className="lg:w-2/3 lg:pr-12">

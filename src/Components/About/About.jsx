@@ -7,7 +7,7 @@ const About = () => {
   return (
     <main >
       <section className="container  mx-auto bg bg-white h-screen bg-cover bg-no-repeat bg-top  ">
-        <div className="pt-32 lg:grid grid-cols-2 p-4 md:gap-20  ">
+        <div className="pt-32 lg:grid grid-cols-2 p-4 md:gap-20 mx-10">
           <div className="relative ">
             <img className="rounded-full lg:mt-28 " src={AboutImg} alt="AboutImg" />
             <div>

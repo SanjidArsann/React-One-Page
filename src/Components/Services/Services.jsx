@@ -11,7 +11,7 @@ const Services = () => {
   }, []);
   return (
     <main className=" relative">
-      <section className=" lg:py-28 py-14 pt-20 lg:mx-24 mx-4 ">
+      <section className=" lg:py-28 py-14 pt-20 mx-20  ">
         <div className="container mx-auto">
         <div>
           <h3 className="text-center pt-3 text-indigo-600 font-semibold text-3xl ">

@@ -32,7 +32,7 @@ const Team = () => {
             Professional Design Agency to provide solutions
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4  gap-8 mt-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 mx-10 gap-8 mt-16">
           {members?.map((member) => (
             <Member key={member.id} member={member}></Member>
           ))}

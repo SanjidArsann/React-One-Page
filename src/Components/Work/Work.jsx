@@ -6,7 +6,7 @@ const Work = () => {
     <div className="relative pb-20">
       <div className="bg-indigo-500">
       <div className="container mx-auto">
-        <div className=" pb-20 ">
+        <div className=" mx-10 pb-20 ">
           <div className="relative">
             <img
               className="absolute top-24 left-2"
